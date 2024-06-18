@@ -1,7 +1,6 @@
 async function fetchAndProcessData() {
     try {
-        const response = await fetch('https://google.com/');
-        return await response;
+        return await fetch('https://google.com/');
     } catch (error) {
         return `Ошибка: ${error.message}`;
     }
